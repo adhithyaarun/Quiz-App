@@ -1,0 +1,17 @@
+.login-heading {
+  padding-bottom: 0.3em;
+  padding-top: 0.5em;
+}
+
+.login-buttons {
+  padding-top: 2em;
+}
+
+@media (max-width: 575px) {
+  .login-button {
+    padding-top: 1em;
+  }
+  .login-buttons {
+    padding-top: 1em;
+  }
+}

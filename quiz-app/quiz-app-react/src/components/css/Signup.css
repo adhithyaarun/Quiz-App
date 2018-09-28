@@ -1,0 +1,17 @@
+.signup-buttons {
+  padding-top: 5em;
+}
+
+.signup-heading {
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+}
+
+@media (max-width: 575px) {
+  .signup-button {
+    padding-top: 1em;
+  }
+  .signup-buttons {
+    padding-top: 2em;
+  }
+}

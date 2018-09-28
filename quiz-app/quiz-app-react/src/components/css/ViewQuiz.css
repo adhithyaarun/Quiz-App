@@ -1,0 +1,22 @@
+.add-question-button {
+  padding-bottom: 2em;
+  padding-top: 0.5em;
+}
+
+.question-text {
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+.question-card {
+  margin-bottom: 2em;
+}
+
+.navigator {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.questions-area {
+  padding-bottom: 10em;
+}
