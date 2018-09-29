@@ -42,7 +42,7 @@ The app presents a ***Bootstrap 4*** styled UI in ***React*** supported by a ***
     go get -u -v github.com/gin-contrib/cors
     go get -u -v github.com/gin-gonic/gin
     go get -u -v github.com/jinzhu/gorm
-  ```
+    ```
 
 ## To run:
 After set-up, run:
