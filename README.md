@@ -1,6 +1,6 @@
 # Quiz World
+A web app for quizzing developed using Go and React.
 ## Description:
-Quiz World is a web app for quizzing developed using Go and React.<br/><br/>
 The app presents a ***Bootstrap 4*** styled UI in ***React*** supported by a ***Go*** server which implements features such as but not limited to, authentication, registration and quizzing capabilities along with admin support which allows admins to modify genres, quizzes and questions.
 
 ## Technologies used:
@@ -42,7 +42,7 @@ The app presents a ***Bootstrap 4*** styled UI in ***React*** supported by a ***
     go get -u -v github.com/gin-contrib/cors
     go get -u -v github.com/gin-gonic/gin
     go get -u -v github.com/jinzhu/gorm
-  ```
+    ```
 
 ## To run:
 After set-up, run:
