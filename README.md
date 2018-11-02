@@ -55,3 +55,47 @@ After set-up, run:
 ```bash
   go run app.go
 ```
+
+## Sample Images:
+
+***Index Page***
+
+![Index Page](./sample-images/index.png)
+
+***Login Page***
+
+![Login Page](./sample-images/login.png)
+
+***Signup Page***
+
+![Signup Page](./sample-images/signup.png)
+
+***User's Index Page***
+
+![Logged in Index Page](./sample-images/logged_in_index.png)
+
+***Genres catalog for admin***
+
+![Genres catalog for admin](./sample-images/genres_admin.png)
+
+***Quizzes catalog for admin***
+
+![Quizzes catalog for admin](./sample-images/sports_quizzes_admin.png)
+
+***Soccer Quiz (Admin View)***
+
+![Soccer Quiz](./sample-images/soccer_quiz_admin.png)
+
+***Leaderboard across Genres***
+
+![Leaderboard](./sample-images/all_leaderboard.png)
+
+***Person Performance***
+
+![Performance](./sample-images/performance.png)
+
+***Genre Control***
+
+![Genre Control](./sample-images/admin_panel.png)
+
+More sample images ***[here](./sample-images/)***
