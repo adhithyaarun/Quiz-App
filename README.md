@@ -12,25 +12,25 @@ The app presents a ***Bootstrap 4*** styled UI in ***React*** supported by a ***
 ### React
   - Install **node**
     - Ubuntu:
-    ```bash
-      curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-      sudo apt-get install -y nodejs
-    ```
+      ```bash
+        curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+        sudo apt-get install -y nodejs
+      ```
     - MacOS:
-    ```bash
-      brew install node
-    ```
+      ```bash
+        brew install node
+      ```
   - Install **yarn**
-    ```bash
-    npm install -g yarn
-    yarn global add create-react-app
-    ```
+      ```bash
+        npm install -g yarn
+        yarn global add create-react-app
+      ```
   - Install packages for **React**:
-  ```bash
-    cd ./quiz-app/quiz-app-react/
-    npm install
-    yarn install
-  ```
+    ```bash
+      cd ./quiz-app/quiz-app-react/
+      npm install
+      yarn install
+    ```
 
 ### Go  
   - Install **Go**
@@ -38,23 +38,22 @@ The app presents a ***Bootstrap 4*** styled UI in ***React*** supported by a ***
     - For MacOS: [Look here](http://sourabhbajaj.com/mac-setup/Go/README.html)
   - Install Go packages by running the following commands on your terminal:
     ```bash
-    go get -u -v golang.org/x/crypto/bcrypt
-    go get -u -v github.com/gin-contrib/cors
-    go get -u -v github.com/gin-gonic/gin
-    go get -u -v github.com/jinzhu/gorm
+      go get -u -v golang.org/x/crypto/bcrypt
+      go get -u -v github.com/gin-contrib/cors
+      go get -u -v github.com/gin-gonic/gin
+      go get -u -v github.com/jinzhu/gorm
     ```
 
 ## To run:
 After set-up, run:
-- In [./quiz-app/quiz-app-react/](./quiz-app/quiz-app-react), run  
-```bash
-    npm start
-    yarn start
-```  
-- In [quiz-app/quiz-app-go/src/](quiz-app/quiz-app-go/src/), run
-```bash
-  go run app.go
-```
+- In the [frontend directory](./frontend/), run  
+  ```bash
+    nodemon
+  ``` 
+- In the [root directory](./), run
+  ```bash
+    go run app.go
+  ```
 
 ## Sample Images:
 
